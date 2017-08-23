@@ -10,9 +10,12 @@ Utilização do IF: No Ruby, caso a condição existente no IF seja nula(nil), o
 Utilização de laços funcionais com os métodos EACH e EACH_WITH_INDEX: 
 
 **Conceito do Duck Type**: Não se preocupa com o tipo específico de uma variável, mas sim se essa variável tem um comportamento desejado ou não. 
+
 EX: Acessar a primeira letra da primeira String de um Array de String. ```meuArray[0][0]```.
  > ```meuArray``` => Array
+
  > ```meuArray[0]``` => String
+
  > ```meuArray[0][0]``` => Primeiro caracter da String
 
  Ou seja, nesse caso, a String está se comportando com um Array.
