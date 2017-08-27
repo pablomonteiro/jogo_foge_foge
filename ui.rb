@@ -21,6 +21,7 @@ def desenha_mapa mapa
 	puts "\n\n\n"
 end
 
+
 def exibe_comandos_do_jogo
 	puts "/ ********** Execute uma Jogada ********** /"
 	puts " W - up   A - left   D - right  S - down"
@@ -28,10 +29,16 @@ def exibe_comandos_do_jogo
 end
 
 
-
 def executa_jogada
 	puts "\n\n"
 	exibe_comandos_do_jogo
 	jogada = gets.strip.upcase
 	jogada
+end
+
+
+def exibe_fim_de_jogo
+	puts "/ ******************** /"
+	puts "/      FIM DE JOGO     /"
+	puts "/ ******************** /"
 end
