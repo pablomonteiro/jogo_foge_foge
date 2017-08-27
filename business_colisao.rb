@@ -10,7 +10,7 @@ end
 
 
 
-def colisao_monstro? personagem, monstros, mapa
+def colisao_monstros? personagem, monstros, mapa
 
 	linha_personagem = personagem[0]
 	coluna_personagem = personagem[1]

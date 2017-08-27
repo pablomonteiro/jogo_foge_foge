@@ -6,7 +6,7 @@ def movimenta_monstro mapa
 		caracteres_da_linha.each_with_index do |caractere_atual, num_caractere|
 			if caractere_atual == icone_monstro
 				monstro = [num_linha, num_caractere + 1]
-				if colisao_barreira? monstro, mapa
+				if colisao_barreira?(monstro, mapa) || colisao_monstro?(monstro, mapa)
 					break
 				end
 				mapa[num_linha][num_caractere] = " "

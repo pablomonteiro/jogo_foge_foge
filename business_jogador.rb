@@ -42,7 +42,7 @@ def movimenta_jogador jogador, jogada, mapa
 
 	monstros = posicoes_monstros mapa
 
-	if colisao_monstro? jogador, monstros, mapa
+	if colisao_monstros? jogador, monstros, mapa
 		return jogador, true
 	end 
 	
