@@ -22,7 +22,7 @@ def inicia_jogo
 	loop do
 		jogada = executa_jogada
 		jogador = encontra_jogador mapa
-		movimenta_monstro mapa
+		mapa = movimenta_monstro mapa
 		jogador, colisao = movimenta_jogador jogador, jogada, mapa
 		desenha_mapa mapa
 

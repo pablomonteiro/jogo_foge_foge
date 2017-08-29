@@ -25,3 +25,8 @@ EX: Acessar a primeira letra da primeira String de um Array de String. ```meuArr
  Passar um Array por referência para uma outra função significa que, qualquer alteração realizada nesse Array refletirá na origem. Mas se esse Array for copiado, a referência morre.
 
  Para realizar a duplicação/cópia de um array, pode-se utilizar afunção ARRAY.dup
+
+
+ ### AULA 2
+ Refatoração para melhorar a legibilidade do código usando um Array assossiativo para os movimentos.
+ 
