@@ -29,4 +29,8 @@ EX: Acessar a primeira letra da primeira String de um Array de String. ```meuArr
 
  ### AULA 2
  Refatoração para melhorar a legibilidade do código usando um Array assossiativo para os movimentos.
+
+
+ ### AULA 3
+ Refatoração do código e manipulação dos arrays para realizar movimentos dos personagens.
  
