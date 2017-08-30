@@ -19,7 +19,6 @@ def colisao_monstros? personagem, monstros, mapa
 		linha_monstro = monstro[0]
 		coluna_monstro = monstro[1]
 		mesma_posicao = (linha_personagem == linha_monstro && coluna_personagem == coluna_monstro)
-
 		if mesma_posicao
 			return true
 		end

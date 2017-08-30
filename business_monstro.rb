@@ -6,11 +6,8 @@ def move_monstro mapa, mapa_novo, num_linha, num_coluna
 	if posicoes.empty?
 		return
 	end
-	#posicao_selecionada = posicoes[0]
 	index = rand(posicoes.size - 1);
-	puts posicoes[index]
 	posicao_selecionada = posicoes[index]
-	#posicao_selecionada = [num_linha, num_coluna + 1]
 	mapa_novo[posicao_selecionada[0]][posicao_selecionada[1]] = icone_monstro
 	mapa_novo
 end

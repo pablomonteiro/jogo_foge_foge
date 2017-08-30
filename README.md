@@ -34,3 +34,28 @@ EX: Acessar a primeira letra da primeira String de um Array de String. ```meuArr
  ### AULA 3
  Refatoração do código e manipulação dos arrays para realizar movimentos dos personagens.
  
+
+ ### AULA 4
+ Conceito básico sobre criação de classes e objetos. 
+ Uso do ```attr_accessor``` para atributos que podem ser acessados e modificados.
+ Para definir o "símbolo"(atributos) da classe, usa-se o caractere ```:```
+ Refatoração para evitar o code smell "Feature Envy"
+ Para representar o objeto mesmo usa-se a palavra ```self```, semelhante ao ```this```
+ Quando se quer duplicar o próprio objeto dentro dele mesmo, pode-se usar tanto o ```self.dup``` quanto apenas o ```dup```, pois o self é opcional'
+Definir uma função/método com ```def``` significa que é possivel apenas invocar o método, e não utilizá-lo como referência em uma variável para ser invocada depois, como é possível fazer em JavaScript, por exemplo.
+Mas é possível fazer isso usando **Lamda Literal**. A sintaxe ficaria assim:
+```
+funcao = -> (valor) {
+	puts "Exibe #{valor}"
+}
+```
+e a chamada desse método ficaria assim:
+```
+funcao.call("texto")
+ou
+funcao.("texto")
+```
+Nesse caso, a função ```call``` é opcional.
+
+
+
